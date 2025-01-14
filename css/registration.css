@@ -1,0 +1,94 @@
+:root {
+    --spciy-pink: #836F70;
+    --don-juan: #5C4A4A;
+    --old-burgundy: #3F3130;
+    --temptress: #380001;
+    --raisin-black: #271E1F;
+    --dark: #1C1E32;
+    --primary: #424242;
+    --secondary: rgb(109 , 41 , 50);
+    --light: #F4F5F8;
+    --dark: #1C1E32;
+    --almond: #EFD4C4;
+    --platinum: #E5DCE2;
+    --lilac-luster: #B89DA7;
+    --toast: #9E6957;
+    --light-taupe: #bb8d6b;
+    --raisin-black: #271e1f;
+}
+
+body {
+    background: url("../img/bgimg3.jpg");
+    background-size: cover;
+    background-position: center;
+    color: var(--spciy-pink);
+    
+  
+}
+
+.form {
+    background: var(--primary);
+    color: var(--raisin-black);
+    border: 2px black solid;
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 70px;
+    justify-content: center;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+h2, h4{
+    color: var(--toast);
+   
+    
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+    gap: 15px;
+}
+
+
+.form-pay {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+  
+   
+
+}
+.form-btn {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 20px;
+    transition: 0.4s;
+    border-radius: 10px;
+    color: black;
+    border: 2px black solid;
+
+    
+    &:hover{
+        transform: scale(1.1);
+        border: 2px red solid;
+        
+       
+
+    }
+}
+
+
+
+
+
+
+
+
+    
